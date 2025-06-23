@@ -1,0 +1,24 @@
+{
+  "poses": [
+    {
+      "name": "大片感",
+      "poseGuide": "面向远方，张开双臂，像要拥抱世界；或者微微可爱，感受风和阳光。",
+      "images": [
+        "https://makejet2023.github.io/pose-guide-content/images/nature_epic_embrace.jpg",
+        "https://makejet2023.github.io/pose-guide-content/images/nature_epic_smile.jpg"
+      ],
+      "shootingMethod": "退远点，让美景包围你！你在画面中间或偏左/右，把广大的海或山都装进去。",
+      "expectedEffect": "像电影里的主角一样，超有气势！"
+    },
+    {
+      "name": "文艺范",
+      "poseGuide": "并拢坐或盘腿坐在草地/沙滩上，侧身对镜头，低头看地面，或微微侧头看向远方。双手可以托腮，或抱膝盖。",
+      "images": [
+        "https://makejet2023.github.io/pose-guide-content/images/nature_artistic_sitting.jpg",
+        "https://makejet2023.github.io/pose-guide-content/images/nature_artistic_think.jpg"
+      ],
+      "shootingMethod": "近距离拍摄，但不要只拍脸！让你的上半身或全身出现在画面中央，背景虚化。",
+      "expectedEffect": "清新、安静，你就是画面焦点。"
+    }
+  ]
+}
