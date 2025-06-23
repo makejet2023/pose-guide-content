@@ -1,24 +1,109 @@
 {
-  "poses": [
+  "categories": [
     {
-      "name": "大片感",
-      "poseGuide": "面向远方，张开双臂，像要拥抱世界；或者微微可爱，感受风和阳光。",
-      "images": [
-        "https://makejet2023.github.io/pose-guide-content/images/nature_epic_embrace.jpg",
-        "https://makejet2023.github.io/pose-guide-content/images/nature_epic_smile.jpg"
-      ],
-      "shootingMethod": "退远点，让美景包围你！你在画面中间或偏左/右，把广大的海或山都装进去。",
-      "expectedEffect": "像电影里的主角一样，超有气势！"
+      "category": "自然风光",
+      "styles": [
+        {
+          "name": "大片感",
+          "description": "适合地点：大山、大海、布鲁克的草原、平原的峡谷、湖泊、日出日落",
+          "poseGuide": "面向远方，可以张开双臂，像要拥抱世界；或者微微可爱，感受风和阳光",
+          "images": [
+            "https://makejet2023.github.io/pose-guide-content/images/nature_epic_embrace.jpg"
+          ],
+          "shootingMethod": "退远点，让美景包围你！手机屏幕里，你的空间在画面中间，或者偏左/偏右一点点，把广大的海或山都装进去",
+          "expectedEffect": "像电影里的主角一样，超有气势！"
+        },
+        {
+          "name": "文艺范",
+          "description": "适合地点：大山、大海、布鲁克的草原、平原的峡谷、湖泊、日出日落",
+          "poseGuide": "并拢坐或盘腿坐在草地/沙滩上，侧身对着镜头，低头看地面，或微微侧头看向远方（不看镜头）。双手可以托腮，或抱膝盖",
+          "images": [
+            "https://makejet2023.github.io/pose-guide-content/images/nature_artistic_sitting.jpg"
+          ],
+          "shootingMethod": "近距离，但不要只拍脸！手机屏幕里，让你的上半身或全身出现在画面中央，背景的草地或海会虚化成一片，你更安静、更多故事",
+          "expectedEffect": "清新、安静，你就是画面焦点"
+        },
+        {
+          "name": "活力派",
+          "description": "适合地点：大山、大海、布鲁克的草原、平原的峡谷、湖泊、日出日落",
+          "poseGuide": "迎着海浪跳起来，或在山顶上大步向前跑，双手随身体自然摆动，脸上带着开心的笑容",
+          "images": [
+            "https://makejet2023.github.io/pose-guide-content/images/nature_vibrant_jump.jpg"
+          ],
+          "shootingMethod": "手机横着拿，留足空间给你跳！用连拍模式！抓拍你跳得最高、最开心的那一瞬间",
+          "expectedEffect": "青春洋溢，活力充足！人景合一！"
+        }
+      ]
     },
     {
-      "name": "文艺范",
-      "poseGuide": "并拢坐或盘腿坐在草地/沙滩上，侧身对镜头，低头看地面，或微微侧头看向远方。双手可以托腮，或抱膝盖。",
-      "images": [
-        "https://makejet2023.github.io/pose-guide-content/images/nature_artistic_sitting.jpg",
-        "https://makejet2023.github.io/pose-guide-content/images/nature_artistic_think.jpg"
-      ],
-      "shootingMethod": "近距离拍摄，但不要只拍脸！让你的上半身或全身出现在画面中央，背景虚化。",
-      "expectedEffect": "清新、安静，你就是画面焦点。"
+      "category": "城市地标",
+      "styles": [
+        {
+          "name": "高大上",
+          "description": "适合地点：高楼大厦、著名建筑、大桥、广场、塔、现代街景",
+          "poseGuide": "抬头仰望建筑，或假装擦肩而过，腿前后错开双立，保持放松",
+          "images": [
+            "https://makejet2023.github.io/pose-guide-content/images/city_elegant_lookup.jpg"
+          ],
+          "shootingMethod": "向下蹲，手机抬高，向上拍！屏幕里，让你站在屏幕底部，建筑从你头顶一直延伸到屏幕顶部，这样人的视野高，楼也更高！",
+          "expectedEffect": "你和地标都缩小超级高挑宏伟！"
+        },
+        {
+          "name": "时尚范",
+          "description": "适合地点：高楼大厦、著名建筑、大桥、广场、塔、现代街景",
+          "poseGuide": "侧身靠着栏杆，或假装打电话/行走。双手可以插入口袋，或提包包。头微微侧过，直视或不看镜头",
+          "images": [
+            "https://makejet2023.github.io/pose-guide-content/images/city_fashion_lean.jpg"
+          ],
+          "shootingMethod": "找到有设计感的墙或角落，把你放在左边或右上处。手机里，背景的街景会柔和虚化，突出你的时尚穿着和姿势",
+          "expectedEffect": "像时尚大片，酷炫有型，你就是焦点！"
+        },
+        {
+          "name": "有趣味",
+          "description": "适合地点：高楼大厦、著名建筑、大桥、广场、塔、现代街景",
+          "poseGuide": "身体朝向地标，可以指向地标做出令人惊讶的表情；或者叉腰，目光俏皮",
+          "images": [
+            "https://makejet2023.github.io/pose-guide-content/images/city_fun_point.jpg"
+          ],
+          "shootingMethod": "抓住一点，让你的有趣的互动成为画面焦点！把你的表情和地标的局部一起拍进去",
+          "expectedEffect": "自然又好玩，告别游客拍照！"
+        }
+      ]
+    },
+    {
+      "category": "室内空间",
+      "styles": [
+        {
+          "name": "文艺小资",
+          "description": "适合地点：特色咖啡馆、艺术展、书店、温馨的家",
+          "poseGuide": "在窗边，手捧着咖啡杯或书本。头微微低低看书，或侧头看向窗外",
+          "images": [
+            "https://makejet2023.github.io/pose-guide-content/images/indoor_bohemian_read.jpg"
+          ],
+          "shootingMethod": "打开人像模式！视野让光线照亮你！手机屏幕里，把你放在画面中央，或眺望那一侧，背景的咖啡馆/书店会虚化，你的视野更清晰、更清晰",
+          "expectedEffect": "温柔又知性，很有电影感"
+        },
+        {
+          "name": "艺术感",
+          "description": "适合地点：特色咖啡馆、艺术展、书店、温馨的家",
+          "poseGuide": "自然站立，可以抱臂，或一只手托腮思考，看向艺术品",
+          "images": [
+            "https://makejet2023.github.io/pose-guide-content/images/indoor_artistic_stand.jpg"
+          ],
+          "shootingMethod": "打开人像模式！让艺术品成为你的背景或前景！把你放在一件艺术品上，另一侧的艺术品。展品会虚化成美丽的色块或光影，衬托给你",
+          "expectedEffect": "你就是艺术品的一部分，自带光环！"
+        },
+        {
+          "name": "舒适",
+          "description": "适合地点：特色咖啡馆、艺术展、书店、温馨的家",
+          "poseGuide": "盘腿坐在地上，或舒适地窝在沙发里，抱个枕枕，头微微靠着",
+          "images": [
+            "https://makejet2023.github.io/pose-guide-content/images/indoor_cozy_sit.jpg"
+          ],
+          "shootingMethod": "打开人像模式！低一点，顶部着拍，或者从侧面拍！把你和身边的抱枕、毯子、灯光一起装进去。背景的家居布置会柔和虚化，让画面更温馨",
+          "expectedEffect": "超有生活氛围，让人羡慕"
+        }
+      ]
     }
   ]
 }
